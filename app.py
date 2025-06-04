@@ -57,7 +57,7 @@ def chat():
     input = msg
     print(input)
 
-    if input == "clear":
+    if input == "clear repo":
         os.system("rm -rf repo")
 
     result = qa(input)
